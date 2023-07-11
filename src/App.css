@@ -1,0 +1,95 @@
+body {
+  background-color: #C2C3D5 !important;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;  
+  flex-direction: column
+}
+
+.current {
+  color: yellow !important;
+}
+
+.display {
+  display: flex;
+  justify-content: end;
+  color: white;
+  height: 10px;
+  margin-bottom: 15px;
+  font-size: 40px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 500px;
+  background-color: black;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 5px;
+}
+
+.grid button {
+  border: 1px solid black;
+  color: white;
+  font-size: 23px;
+  border-radius: 50px;
+}
+
+.grid button:hover {
+  border-color: gray;
+  color: black;
+}
+
+.grid .rectangle {
+  height: 60px;
+  background-color: #4d4d4d;
+} 
+
+#clear {
+  grid-column-start: 1;
+  grid-column-end: span 2;
+}
+
+.top {
+  background-color: #9F9F9F !important;
+  color: black !important;
+}
+
+.top:hover {
+  color: white !important;
+}
+
+.right {
+  background-color: #FF9500 !important;
+}
+
+#zero {
+  grid-column-start: 1;
+  grid-column-end: span 2
+}
+
+#equals {
+  grid-row-end: span 2;
+  background-color: blue;
+}
+
+.footer {  
+  line-height: 1.05;
+  font-weight: 500;
+  letter-spacing: .008em;
+  font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+
